@@ -65,7 +65,7 @@ p {
 	font-size: 15px;
 	font-weight: 500;
 	margin-top: 0;
-	line-height: 1.9;
+	line-height: 0.9;
 	text-align: justify;
 }
 
@@ -464,8 +464,8 @@ img {
 	display: none !important;
 }
 
-.navbar-brand img{
-    height:100px;
+.navbar-brand img {
+	height: 100px;
 }
 
 .search-form-area #search {
@@ -631,6 +631,7 @@ img {
 	background-color: #96f096;
 	position: relative;
 	z-index: 1;
+	/* height:auto; */
 }
 
 .features-img > img {
@@ -639,6 +640,9 @@ img {
 	bottom: -30px;
 	left: 30px;
 	z-index: 9;
+	height: 100%;
+	margin-bottom: 100px;
+	box-shadow: 10px 5px 15px #696969;
 }
 
 .mosh-features-area .section-heading {
@@ -962,13 +966,16 @@ span.accor-open {
 	position: relative;
 	z-index: 1;
 	background-color: #97f07c;
-	height: 10%;
+	height: 100%;
 }
 
 .single-footer-widget h5 {
 	color: #fff;
-	margin-bottom: 0px;
-	padding-top: 65px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: "center";
+	/* padding-top: 65px; */
 }
 
 .single-footer-widget ul > li > a {
@@ -988,7 +995,7 @@ span.accor-open {
 }
 
 .copyright-text > p {
-	margin-bottom: 0;
+	margin-bottom: 20px;
 	font-size: 13px;
 	text-align: center;
 }
@@ -1037,7 +1044,10 @@ span.accor-open {
 
 .footer-bottom-area {
 	background-color: #97f07c;
-	height: 60px;
+	height: auto;
+	display: flex;
+	align-content: flex-end;
+	justify-content: center;
 }
 
 /* --------------------
@@ -1667,15 +1677,14 @@ span.accor-open {
 .contact-information h2 {
 	font-size: 40px;
 	margin-bottom: 50px;
-    font-weight: 900;
-    display:flex;
-
+	font-weight: 900;
+	display: flex;
 }
 
 .contact-form-area .form-control {
 	font-size: 16px;
 	color: #000000;
-	background-color: 'transparent';
+	background-color: "transparent";
 	border-top: none;
 	border-left: none;
 	border-right: none;
@@ -1685,16 +1694,15 @@ span.accor-open {
 	width: 400px;
 	margin-bottom: 10px;
 	padding: 50px;
-    font-style: italic;
-    font-weight:bold;
-	
+	font-style: italic;
+	font-weight: bold;
 }
 
 /* #email {
     margin-left:0.1%; 
 } */
 #subject {
-    width:100%;
+	width: 100%;
 }
 
 .contact-form-area .form-control:hover,
@@ -1706,7 +1714,6 @@ span.accor-open {
 	height: 100px;
 	/* width: 785px; */
 	width: 100%;
-	
 }
 
 .contact-social-info > a {
