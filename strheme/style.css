@@ -521,7 +521,9 @@ img {
 .hero-slide-content h2 {
 	font-size: 60px;
 	color: #fff;
-	line-height: 1.8;
+	line-height: 1;
+	padding-left:10%;
+	padding-right:10%;
 }
 
 .hero-slide-content h4 {
@@ -975,6 +977,7 @@ span.accor-open {
 	margin-top: 20px;
 	display: flex;
 	justify-content: "center";
+	align-self:'center'
 	/* padding-top: 65px; */
 }
 
