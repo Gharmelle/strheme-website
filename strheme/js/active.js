@@ -203,6 +203,16 @@
 
 	if ($window.width() > 767) {
 		new WOW().init()
+	} else {
+		$(".address-custom").css("text-align", "center")
+		$("#custom-footer-img").css({
+			"margin-left": "auto",
+			"margin-right": "auto",
+		})
+		$(".custom-text-center")
+			.removeClass("justify-content-start")
+			.addClass("justify-content-center")
+		$("#contact-submit-btn").css("margin", "auto")
 	}
 
 	// $window.on('scroll', function () {
@@ -218,4 +228,8 @@
 			$(this).remove()
 		})
 	})
+
+	const year = new Date().getFullYear()
+
+	$("#year").text(year)
 })(jQuery)

@@ -21,6 +21,12 @@
 
 		<!-- Responsive CSS -->
 		<link href="css/responsive.css" rel="stylesheet" />
+
+		<!-- FONT -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 
 	<body>
@@ -85,8 +91,8 @@
 				<div class="row h-100 align-items-center">
 					<div class="col-12">
 						<div class="bradcumbContent">
-							<h2>Contact</h2>
-							<h3 style="color:#000">Always ready to hear from you!</h3>
+							<h2>Contact Us</h2>
+							<h3 style="color:#000">We're always ready to hear from you!</h3>
 							<nav aria-label="breadcrumb"></nav>
 						</div>
 					</div>
@@ -140,7 +146,7 @@
 											placeholder="Message"
 										></textarea>
 									</div>
-									<button class="btn mosh-btn mt-50" type="submit">
+									<button class="btn mosh-btn mt-50" type="submit" id='custom-submit-btn'>
 										Send Message
 									</button>
 								</div>
@@ -170,14 +176,15 @@
 					<div class="row">
 						<div class="col-12 col-sm-6 col-lg-6 justify-content-center">
 							<div class="single-footer-widget">
-								<a href="#" class="mb-50 mt-50 d-block"
+								<a href="index.html" class=" mt-50 d-block"
 									><img
+									id='custom-footer-img'
 										src="img/core-img/strheme-logo-cropped.png"
 										alt=""
 										style="margin-left:-10%"
 								/></a>
 
-								<p class="d-flex justify-content-start p-100 text-center">
+								<p class="d-flex justify-content-start p-100 custom-text-center">
 									Your link to the Energy, Oil & Gas markets...
 								</p>
 							</div>
@@ -189,7 +196,7 @@
 									<br /><br />
 									<div class="footer-single-contact-info">
 										<div>
-											<p style="text-align:end">
+											<p class='address-custom' style="text-align:end; line-height:0.8;">
 												1 Carrot Avenue East Legon <br /><br />
 												Opposite Lizzy Sports Complex <br /><br />
 												Accra Ghana <br /><br />
@@ -218,7 +225,7 @@
 							<p>
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 								<!-- </script>  -->
-								Strheme © 2019 | All rights reserved
+								Strheme © <span id="year"></span> | All rights reserved
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</p>
 						</div>

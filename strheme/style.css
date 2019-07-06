@@ -288,7 +288,8 @@ img {
 }
 
 .section-heading {
-	margin-bottom: 100px;
+	margin-bottom: 2%;
+	margin-top: 5%;
 }
 
 .heading2 > p {
@@ -644,8 +645,12 @@ img {
 	margin-bottom: 5%;
 }
 
+.features-content > p {
+	line-height: 1.6;
+}
+
 .mosh-features-area .section-heading {
-	margin-bottom: 60px;
+	margin-bottom: 2 0px;
 }
 
 .mosh-features-area .section-heading h2 {
@@ -1038,7 +1043,7 @@ span.accor-open {
 	color: #4a7aec;
 }
 
-.footer-single-contact-info .contact-icon{
+.footer-single-contact-info .contact-icon {
 	margin-right: 15px;
 }
 
