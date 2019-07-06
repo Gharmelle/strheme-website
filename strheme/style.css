@@ -488,7 +488,7 @@ img {
 	box-shadow: 0 6px 20px rgba(117, 248, 56, 0.15);
 	height: 100px;
 	width: 50;
-	position: fixed;
+	position: relative;
 	top: 0;
 	z-index: 999;
 }
@@ -519,11 +519,9 @@ img {
 }
 
 .hero-slide-content h2 {
-	font-size: 60px;
+	font-size: 50px;
 	color: #fff;
 	line-height: 1;
-	padding-left:10%;
-	padding-right:10%;
 }
 
 .hero-slide-content h4 {
@@ -642,9 +640,8 @@ img {
 	bottom: -30px;
 	left: 30px;
 	z-index: 9;
-	height: 100%;
-	margin-bottom: 100px;
-	box-shadow: 10px 5px 15px #696969;
+	height: 80%;
+	margin-bottom: 5%;
 }
 
 .mosh-features-area .section-heading {
@@ -1065,7 +1062,7 @@ span.accor-open {
 }
 
 .bradcumbContent h2 {
-	color: #000;
+	color: #fff;
 	font-size: 60px;
 	text-align: center;
 }
