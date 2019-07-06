@@ -29,7 +29,7 @@
 
 body,
 html {
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto slab", serif;
 }
 
 h1,
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto Slab", serif;
 	font-weight: 700;
 	color: #000000;
 	line-height: 1.2;
@@ -60,7 +60,7 @@ li {
 }
 
 p {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Roboto Slab", sans-serif;
 	color: #000000;
 	font-size: 15px;
 	font-weight: 500;
@@ -512,7 +512,7 @@ img {
 }
 
 .single-hero-slide {
-	height: 1200px;
+	height: 900px;
 	width: 100%;
 	position: relative;
 	z-index: 1;
@@ -628,7 +628,7 @@ img {
 ------------------------- */
 
 .mosh-features-area {
-	background-color: #96f096;
+	background-color: #fff;
 	position: relative;
 	z-index: 1;
 	/* height:auto; */
@@ -974,7 +974,7 @@ span.accor-open {
 	margin-top: 20px;
 	display: flex;
 	justify-content: "center";
-	align-self:'center'
+	align-self: "center";
 	/* padding-top: 65px; */
 }
 
@@ -1038,7 +1038,7 @@ span.accor-open {
 	color: #4a7aec;
 }
 
-.footer-single-contact-info .contact-icon {
+.footer-single-contact-info .contact-icon{
 	margin-right: 15px;
 }
 
